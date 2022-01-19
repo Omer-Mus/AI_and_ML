@@ -1,3 +1,5 @@
+# Author: Omer Mustel
+
 import numpy as np
 import pandas as pd
 import matplotlib.lines as mlines
@@ -74,12 +76,10 @@ def main():
         for row in weights:
             out_result.writerow(row)
 
-        #
+        # 
         # fig = plt.figure()
         # ax = plt.axes()
         # # ax.plot(weight)
         # plt.show()
-    # data = pd.read_csv('data5.csv', header=None)
-    # visualize_scatter(data, weights=[1,1,1,1,-1,-1,-1])
 if __name__ == '__main__':
     main()
