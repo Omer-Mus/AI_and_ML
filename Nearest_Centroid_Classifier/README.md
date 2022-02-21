@@ -1,21 +1,35 @@
 Overview
+
 In this project we will apply the Nearest Centroid Classifier discussed in class to a new data set. We will apply a technique called cross-validation to get a more reliable measure of the performance of the machine learning model.
 
 The Data Set
 Download the file  redwine.csv  Download redwine.csvand whitewine.csv  Download whitewine.csv. Each row in these files contains information about a type of wine (these are all Portuguese wines of the Vinho Verde DOC), either red or white wine. The attributes for each wine are different chemical measurements. The columns in the files are:
 
 fixed acidity
+
 volatile acidity
+
 citric acid
+
 residual sugar
+
 chlorides
+
 free sulfur dioxide
+
 total sulfur dioxide
+
 density
+
 pH
+
 sulphates
+
 alcohol
+
 quality (score between 1 and 10. We won't be using this column)
+
+
 Note that the fields are separated by semicolons. 
 
 Also note that, unlike the iris flower dataset we used in class, the data does not contain a column for the class label. That information is not necessary because whitewine.csv only contains white wines and redwine.csv only contains red wines. You need to take this into account when loading and processing the training data.
