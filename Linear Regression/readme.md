@@ -1,1 +1,1 @@
-Please run: $ python3 data2.csv result2.csv
+run: $ python3 <data_file>.csv <result_file>.csv
