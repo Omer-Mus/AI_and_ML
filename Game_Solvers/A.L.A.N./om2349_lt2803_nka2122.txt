@@ -1,0 +1,13 @@
+
+
+Authors: Omer Mustel (om2349), Lucas Bamidele (lt2803), Nana Antwi (nka2122)
+
+
+Each member contribution:
+
+Omer: Move minimax; hueristics; final states; test player.
+Lucas: Throw Minimax; hueristics; final states; test player.
+Nana: Move; Throw; hueristics; final states; test player.
+
+
+
